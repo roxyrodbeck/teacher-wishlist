@@ -7,11 +7,11 @@
         <div class="text-center">
             <div class="text-green-500 text-6xl mb-4"> 
                 ✅</div>
-                <h2 class="text-3xl font-bold mb-4">Success!</h2>
+                <h2 class="text-3xl font-mono font-bold mb-4">Success!</h2>
                 <p class="text-gray-600 mb-6">Your wishlist page has been created successfully.</p>
 </div>
                 <div class="bg-gray-50 p-4 rounded-md mb-6">
-                    <h3 class="font-semibold text-lg mb-2">Your Shareable Link:</h3>
+                    <h3 class="font-semibold font-mono text-lg mb-2">Your Shareable Link:</h3>
                     <div class="flex items-center space-x-2">
                         <input
                         type="text"
@@ -22,7 +22,7 @@
 
                         <button
                         onclick="copyToClipboard()"
-                        class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+                        class="bg-green-600 font-mono text-white px-4 py-2 rounded-md hover:bg-green-700">
                             Copy Link</button>
 </div>
 </div>
@@ -30,10 +30,10 @@
 <div class="text-center space-y-4">
     <a href="{{ $teacher->shareable_url }}" 
     target="_blank" 
-    class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-green-700">Preview Your Page</a>
+    class="bg-green-600 font-mono text-white px-6 py-2 rounded-md hover:bg-green-700">Preview Your Page</a>
 </div>
 <a href="{{ route('teachers.create') }}" 
-class="text-blue-600 hover:text-blue-800">Create Another Page</a>
+class="text-green-600 font-mono hover:text-green-800">Create Another Page</a>
 </div>
 </div>
 </div>
