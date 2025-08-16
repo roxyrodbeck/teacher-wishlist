@@ -17,7 +17,7 @@
                     id="name"
                     name="name"
                     value="{{ old('name') }}"
-                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" 
                     placeholder="Enter your name">
                     @error('name')
                         <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
@@ -33,7 +33,7 @@
         name="wishlist_link"
         value="{{ old('wishlist_link') }}"
         required
-        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
+        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" 
         placeholder="Enter your wishlist link">
         @error('wishlist_link')
             <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
@@ -57,7 +57,7 @@
 </div>
 <button
 type="submit"
-class="w-full bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"> 
+class="w-full bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"> 
     Create Wishlist</button>
     </form>
     </div>  

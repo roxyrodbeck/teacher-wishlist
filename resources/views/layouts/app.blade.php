@@ -7,9 +7,9 @@
         <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 min-h-screen">
-    <nav class="bg-blue-600 text-white p-4">
+    <nav class="bg-green-800 text-white p-4">
         <div class="container mx-auto">
-            <h1 class="text-xl font-bold">Teacher Wishlist Platform</h1>
+            <h1 class="text-2xl font-bold text-center">🍎 Educator Wishlist Creator 🍎</h1>
 </div>
     </nav>
     <main class="container mx-auto p-4 py-8">
