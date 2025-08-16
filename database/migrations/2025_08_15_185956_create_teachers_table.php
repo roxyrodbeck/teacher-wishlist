@@ -12,8 +12,8 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->text('wishlist_link');
-            $table->string('paypal_email');
-            $table->string('unique_slug')->unique();
+            $table->string('paypal_username');
+            $table->string('unique_slug')->unique(); 
             $table->timestamps();
         });
     }

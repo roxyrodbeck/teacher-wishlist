@@ -41,17 +41,17 @@
 </div>
 
 <div>
-    <label for="paypal_email" class="block text-sm font-medium text-gray-700 mb-2"> 
-        PayPal Email</label>
+    <label for="paypal_username" class="block text-sm font-medium text-gray-700 mb-2"> 
+        PayPal Username</label>
         <input 
-        type="email"
-        id="paypal_email"
-        name="paypal_email"
-        value="{{ old('paypal_email') }}"
+        type="text"
+        id="paypal_username"
+        name="paypal_username"
+        value="{{ old('paypal_ username') }}"
         required
         class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
-        placeholder="Enter your PayPal email">
-        @error('paypal_email')
+        placeholder="Create at paypal.com/paypalme/">
+        @error('paypal_username')
             <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
         @enderror
 </div>

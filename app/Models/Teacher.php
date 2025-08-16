@@ -13,7 +13,7 @@ class Teacher extends Model
     protected $fillable = [
         'name',
         'wishlist_link',
-        'paypal_email',
+        'paypal_username',
         'unique_slug',
     ];
 

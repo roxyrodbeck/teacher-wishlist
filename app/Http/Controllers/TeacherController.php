@@ -17,7 +17,7 @@ class TeacherController extends Controller
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'wishlist_link' => 'required|url',
-            'paypal_email' => 'required|email',
+            'paypal_username' => 'required|string|max:255'
         ]);
 
         $teacher = Teacher::create($validated);
@@ -28,7 +28,6 @@ class TeacherController extends Controller
     public function show($slug)
     {
         $teacher = Teacher::where('unique_slug', $slug)->firstOrFail();
-
         return view('teachers.landing', compact('teacher'));
     }
 }
