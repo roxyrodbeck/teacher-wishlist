@@ -47,7 +47,7 @@
         type="text"
         id="paypal_username"
         name="paypal_username"
-        value="{{ old('paypal_username') }}"
+        value="{{ old('paypal_ username') }}"
         required
         class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
         placeholder="create at paypal.com/paypalme/">

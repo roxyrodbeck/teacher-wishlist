@@ -12,4 +12,3 @@ Route::post('/teachers', [TeacherController::class, 'store'])->name('teachers.st
 
 Route::get('/teacher/{slug}', [TeacherController::class, 'show'])->name('teachers.show');
 
-

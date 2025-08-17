@@ -17,7 +17,7 @@ class TeacherController extends Controller
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'wishlist_link' => 'required|url',
-            'paypal_username' => 'nullable|string|max:255'
+            'paypal_username' => 'required|string|max:255'
         ]);
 
         $teacher = Teacher::create($validated);
